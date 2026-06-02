@@ -12,7 +12,7 @@ Following on from [Paste Tangents](tangents-tab.md#paste), here are the more adv
 
 **If you copied&#x20;**_**only one**_**&#x20;tangent from a pair, and paste to&#x20;**_**both**_**&#x20;tangents of a pair**, which tangent is altered depends on which tangent you _copied_. If you copied the In tangent, the selected In tangent will be pasted to. If you copied the Out tangent, the selected Out tangent will be pasted to.
 
-#### <img src="/img/tangents - pasteLength.svg" alt="" data-size="line"> Paste Length and <img src="/img/tangents - pasteAngle.svg" alt="" data-size="line"> Paste Angle
+#### ![](img/tangents - pasteLength.svg) Paste Length and ![](img/tangents - pasteAngle.svg) Paste Angle
 
 If you hover over the Paste button, there are additional buttons to paste only the length or only the angle. If you paste length, the selected tangents will retain their existing angles. If you paste angle, the selected tangents will retain their existing length.
 

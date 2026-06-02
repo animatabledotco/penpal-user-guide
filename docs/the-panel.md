@@ -12,11 +12,11 @@ Let's look at the different parts of the Penpal panel:
 
 **Hamburger menu** - this menu contains options for [licensing](master.md#licensing-and-trial-mode), updating and getting technical support for the product, as well as the [Preferences](preferences.md) and a link to this documentation.
 
-<img src="/img/reload.svg" alt="" data-size="line"> **Reload** button - reloads currently selected paths. This will de-select any [selected elements](elements-selections-and-tabs.md#selections) in the canvas.
+![](img/reload.svg) **Reload** button - reloads currently selected paths. This will de-select any [selected elements](elements-selections-and-tabs.md#selections) in the canvas.
 
-**Tabs** - switches between groups of functions - <img src="/img/tabs - paths.svg" alt="" data-size="line"> [Paths](path-tab.md), <img src="/img/tabs - points.svg" alt="" data-size="line"> [Points](points-tab.md) and <img src="/img/tabs - tangents.svg" alt="" data-size="line"> [Tangents](tangents-tab.md).
+**Tabs** - switches between groups of functions - ![](img/tabs - paths.svg) [Paths](path-tab.md), ![](img/tabs - points.svg) [Points](points-tab.md) and ![](img/tabs - tangents.svg) [Tangents](tangents-tab.md).
 
-[**Spaces**](spaces.md) button - switches between <img src="/img/space - comp.svg" alt="" data-size="line"> Comp, <img src="/img/space - layer.svg" alt="" data-size="line"> Layer and <img src="/img/space - local.svg" alt="" data-size="line"> Local space.
+[**Spaces**](spaces.md) button - switches between ![](img/space - comp.svg) Comp, ![](img/space - layer.svg) Layer and ![](img/space - local.svg) Local space.
 
 **Function buttons** - to perform operations.
 

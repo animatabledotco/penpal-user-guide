@@ -1,7 +1,7 @@
 /* Animatable.co | MkDocs */
 @import url("https://animatable.s3.amazonaws.com/animatable-zensical.css");
 
-img[data-size="line"] {
+img[src$=".svg"] {
     display: inline-block;
     height: 1em;
     width: auto;

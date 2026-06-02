@@ -14,7 +14,7 @@ You cannot drag elements in the Penpal panel (e.g points) to move them, as you c
 
 ## Loading Paths into Penpal
 
-If you have a layer with one or more paths selected when you first open Penpal, it will automatically load them. Otherwise, select the layers or paths you want to edit, and either click the <img src="/img/reload.svg" alt="" data-size="line"> **reload** button or **double-click** in an empty part of the canvas.
+If you have a layer with one or more paths selected when you first open Penpal, it will automatically load them. Otherwise, select the layers or paths you want to edit, and either click the ![](img/reload.svg) **reload** button or **double-click** in an empty part of the canvas.
 
 If you’ve loaded several paths, and you want to remove some from the panel, select them, then right-click anywhere in the panel to access the [context menu](context-menu.md), and click on **Remove Path From View** (you can also click **Solo Path in View** to remove non-selected paths).
 
