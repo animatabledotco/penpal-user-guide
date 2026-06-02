@@ -22,7 +22,7 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/stopwatch.svg">
       <meta name="generator" content="zensical-0.0.10">
     
     
@@ -87,12 +87,16 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/animatable.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
       
 
     
     
+<meta name="robots" content="noindex, nofollow">
+
   </head>
   
   
@@ -119,6 +123,24 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+              </button>
+            
+            
+This guide is no longer updated. It is for an old, outdated version of Penpal (v1.5.0).
+<a href="https://penpal.docs.animatable.co">View the current Penpal 2 docs</a>
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
     </div>
     
     
@@ -130,8 +152,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Penpal v1 User Guide" class="md-header__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -229,8 +250,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Penpal v1 User Guide" class="md-nav__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     Penpal v1 User Guide
@@ -670,13 +690,13 @@
 
 <h1 id="spaces">Spaces<a class="headerlink" href="#spaces" title="Permanent link">&para;</a></h1>
 <p><strong>Spaces</strong> are ways of handling paths <em><strong>with or without transformations</strong></em>. Let's say you have a rounded, rectangular path, but it's layer has been rotated. If you want to make the shape taller, it's easier to do so without that rotation. Normally, you'd have to use a precomp to do this, and go into the un-rotated precomp. But Penpal can sort of <em>see inside</em> layers, and show you the path as it is, without the rotation.</p>
-<p><img alt="" src="../.gitbook/assets/20200515-Snap-GIF.gif" /></p>
+<p><img alt="" src="../img/20200515-Snap-GIF.gif" /></p>
 <p>The <strong>Spaces button</strong> shows the active space. When you hover over it, a dropdown allows you to activate a different space.</p>
-<p><img src=".gitbook/assets/space - comp.svg" alt="" data-size="line"> <strong>Comp space</strong> shows your paths as they appear in the composition panel in After Effects, with all the positioning, scaling, rotating, skewing, and other transformations that are affecting them.</p>
-<p><img src=".gitbook/assets/space - layer.svg" alt="" data-size="line"> <strong>Layer space</strong> shows paths as if you were ‘inside’ the layer they are a part of. So if that layer is rotated, your paths will be shown without this rotation.</p>
-<p><img src=".gitbook/assets/space - local.svg" alt="" data-size="line"> <strong>Local space</strong> shows paths as they 'really are', without any of the transformations applied to both the layer <strong>and</strong> any shape groups they are in.</p>
-<p><img alt="" src="../.gitbook/assets/spaces3.png" /></p>
-<p><img alt="A star inside a square - but the group has been skewed to 35, and the layer has been rotated 30º" src="../.gitbook/assets/Spaces-timeline2.png" /></p>
+<p><img src="/img/space - comp.svg" alt="" data-size="line"> <strong>Comp space</strong> shows your paths as they appear in the composition panel in After Effects, with all the positioning, scaling, rotating, skewing, and other transformations that are affecting them.</p>
+<p><img src="/img/space - layer.svg" alt="" data-size="line"> <strong>Layer space</strong> shows paths as if you were ‘inside’ the layer they are a part of. So if that layer is rotated, your paths will be shown without this rotation.</p>
+<p><img src="/img/space - local.svg" alt="" data-size="line"> <strong>Local space</strong> shows paths as they 'really are', without any of the transformations applied to both the layer <strong>and</strong> any shape groups they are in.</p>
+<p><img alt="" src="../img/spaces3.png" /></p>
+<p><img alt="A star inside a square - but the group has been skewed to 35, and the layer has been rotated 30º" src="../img/Spaces-timeline2.png" /></p>
 <p>Many of Penpal's buttons behave differently depending on which Space you are in. If you <a href="../points-tab/#move-up">move points up</a> in Comp space, they will move in the direction that is up in the composition. If your layer was rotated, and you moved them up <em>in Layer space</em>, they would move upwards <em>within the layer</em>, along it's angle of rotation.  <a href="../path-tab/#flip-vertically">Flipping</a> and <a href="../path-tab/#center">centering</a> Paths, <a href="../points-tab/#align-horizontal">Aligning</a> and <a href="../points-tab/#distribute-horizontally">distributing</a> points, <a href="../tangents-tab/#flatten-vertically">flattening</a> and <a href="../tangents-tab/#flip-horizontally">flipping</a> tangents, and even <a href="../points-tab/#snap">snapping points to pixels</a>… all can behave differently if your path is inside a shape group or a layer that has been transformed.<br></p>
 
 

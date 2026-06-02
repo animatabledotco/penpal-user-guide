@@ -1,0 +1,9 @@
+/* Animatable.co | MkDocs */
+@import url("https://animatable.s3.amazonaws.com/animatable-zensical.css");
+
+img[data-size="line"] {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+}

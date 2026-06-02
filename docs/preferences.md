@@ -12,7 +12,7 @@ Penpal is localized into Chinese, German, Italian, Japanese, Portuguese, Russian
 
 You can adjust the next three settings by clicking on the sliders or clicking the numbers to their right. However, these settings can also be adjusted on the fly using keyboard shortcuts, without opening the preferences window at all, by using the `-` and `+` keys, with modifiers, _whilst Penpal is the active panel_ in After Effects - see below for details.
 
-![](.gitbook/assets/Prefs.png)
+![](img/Prefs.png)
 
 **Handle Size** determines the size, in pixels, that point and tangent indicators (squares and circles) display in the panel. On high-DPI screens you may find that even numbers work better than odd.
 
@@ -32,8 +32,7 @@ You can also adjust directional arrow position with the `+` and `-` keys, by als
 
 **Use relative tangent values** - typically, tangent values are treated by After Effects as being relative to their parent point, eg. a tangent with value `[0,0]` is a zero'ed tangent. Disabling this toggle will make Penpal use absolute tangent values - in the same co-ordinate space as points - so a zero'd tangent will have the same values as it's parent point, and a tangent with value `[0,0]` would be at the origin of the current [Space](spaces.md), eg. the top-left corner of the composition in Comp Space.
 
-{% hint style="info" %}
-You can edit point and tangent values directly by double-clicking on them.
-{% endhint %}
+!!! info
+    You can edit point and tangent values directly by double-clicking on them.
 
 **Contextual menu** You can disable the data options in the [context menu](context-menu.md) if you prefer.

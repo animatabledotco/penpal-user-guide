@@ -22,7 +22,7 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/stopwatch.svg">
       <meta name="generator" content="zensical-0.0.10">
     
     
@@ -87,12 +87,16 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/animatable.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
       
 
     
     
+<meta name="robots" content="noindex, nofollow">
+
   </head>
   
   
@@ -119,6 +123,24 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+              </button>
+            
+            
+This guide is no longer updated. It is for an old, outdated version of Penpal (v1.5.0).
+<a href="https://penpal.docs.animatable.co">View the current Penpal 2 docs</a>
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
     </div>
     
     
@@ -130,8 +152,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Penpal v1 User Guide" class="md-header__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -229,8 +250,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Penpal v1 User Guide" class="md-nav__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     Penpal v1 User Guide
@@ -760,14 +780,16 @@
 
 <h1 id="tabs-and-selections">Tabs and selections<a class="headerlink" href="#tabs-and-selections" title="Permanent link">&para;</a></h1>
 <h2 id="tabs">Tabs<a class="headerlink" href="#tabs" title="Permanent link">&para;</a></h2>
-<p>There are three tabs at the top of the panel, denoted by symbols: <img src=".gitbook/assets/tabs - paths.svg" alt="" data-size="line">Paths, <img src=".gitbook/assets/tabs - points.svg" alt="" data-size="line">Points and <img src=".gitbook/assets/tabs - tangents.svg" alt="" data-size="line">Tangents. Clicking on these tabs displays different groups of buttons, and highlights the relevant elements in the canvas. <a href="../path-tab/">Path functions</a> affect the path as a whole - it will maintain it’s proportions and essential shape. <a href="../points-tab/">Point functions</a> affect points and <a href="../tangents-tab/">Tangent functions</a> affect tangents.</p>
+<p>There are three tabs at the top of the panel, denoted by symbols: <img src="/img/tabs - paths.svg" alt="" data-size="line">Paths, <img src="/img/tabs - points.svg" alt="" data-size="line">Points and <img src="/img/tabs - tangents.svg" alt="" data-size="line">Tangents. Clicking on these tabs displays different groups of buttons, and highlights the relevant elements in the canvas. <a href="../path-tab/">Path functions</a> affect the path as a whole - it will maintain it’s proportions and essential shape. <a href="../points-tab/">Point functions</a> affect points and <a href="../tangents-tab/">Tangent functions</a> affect tangents.</p>
 <h2 id="selections">Selections<a class="headerlink" href="#selections" title="Permanent link">&para;</a></h2>
 <p>You can select elements by dragging a marquee over them, or by clicking on them one-by-one while holding <code>Shift</code> or <code>Cmd/Ctrl</code>.</p>
 <p><a href="../path-tab/">Paths</a> can only be selected by dragging.</p>
 <p><strong>Selecting elements in the canvas is not dependent on tab - you can still select points while you're in the tangents tab, and so on.</strong></p>
 <p>Unselected points and tangents are displayed with an outlined icon. When they are selected, it becomes filled. Selected paths are slightly brighter in the points and tangents tabs, and blue when in the paths tab.</p>
-<p _="%" endhint="endhint">{% hint style="warning" %}
-Unlike Adobe software generally, selecting a point does <strong>not</strong> automtically select it’s tangents. In Penpal, they are treated as separate things. To select both tangents of a pair, you need to drag the marquee over both of them, or Shift-click on them one-by-one.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Unlike Adobe software generally, selecting a point does <strong>not</strong> automtically select it’s tangents. In Penpal, they are treated as separate things. To select both tangents of a pair, you need to drag the marquee over both of them, or Shift-click on them one-by-one.</p>
+</div>
 
 
 

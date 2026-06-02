@@ -69,7 +69,7 @@ nav = [
 #
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
-#extra_css = ["assets/stylesheets/extra.css"]
+extra_css = ["assets/css/animatable.css"]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
 # project to customize the behavior according to your needs.
@@ -83,6 +83,9 @@ nav = [
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
 [project.theme]
+custom_dir = "overrides"
+favicon = "assets/stopwatch.svg"
+logo = "assets/stopwatch.svg"
 
 # change this to "classic" to use the traditional Material for MkDocs look.
 #variant = "classic"

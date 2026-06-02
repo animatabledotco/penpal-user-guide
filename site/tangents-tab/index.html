@@ -22,7 +22,7 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/stopwatch.svg">
       <meta name="generator" content="zensical-0.0.10">
     
     
@@ -87,12 +87,16 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/animatable.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
       
 
     
     
+<meta name="robots" content="noindex, nofollow">
+
   </head>
   
   
@@ -119,6 +123,24 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+              </button>
+            
+            
+This guide is no longer updated. It is for an old, outdated version of Penpal (v1.5.0).
+<a href="https://penpal.docs.animatable.co">View the current Penpal 2 docs</a>
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
     </div>
     
     
@@ -130,8 +152,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Penpal v1 User Guide" class="md-header__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -229,8 +250,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Penpal v1 User Guide" class="md-nav__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     Penpal v1 User Guide
@@ -979,33 +999,35 @@
                   
 
 <h1 id="tangents-tab">Tangents tab<a class="headerlink" href="#tangents-tab" title="Permanent link">&para;</a></h1>
-<p><img alt="" src="../.gitbook/assets/tangentsstab (1).png" /></p>
-<p _="%" endhint="endhint">{% hint style="warning" %}
-When dealing with tangents, remember that even a ‘zero’ tangent, is treated by Penpal as a selectable element. If you drag a marquee selection over a point with zero tangents, you’ll be selecting both tangents.</p>
-<h4 id="move-up-move-down-move-left-move-right"><img src=".gitbook/assets/points - up.svg" alt="" data-size="line"> Move up,<img src=".gitbook/assets/points - down.svg" alt="" data-size="line"> Move down, <img src=".gitbook/assets/points - left.svg" alt="" data-size="line"> Move left, <img src=".gitbook/assets/points - right.svg" alt="" data-size="line"> Move right<a class="headerlink" href="#move-up-move-down-move-left-move-right" title="Permanent link">&para;</a></h4>
+<p><img alt="" src="../img/tangentsstab (1).png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When dealing with tangents, remember that even a ‘zero’ tangent, is treated by Penpal as a selectable element. If you drag a marquee selection over a point with zero tangents, you’ll be selecting both tangents.</p>
+</div>
+<h4 id="move-up-move-down-move-left-move-right"><img src="/img/points - up.svg" alt="" data-size="line"> Move up,<img src="/img/points - down.svg" alt="" data-size="line"> Move down, <img src="/img/points - left.svg" alt="" data-size="line"> Move left, <img src="/img/points - right.svg" alt="" data-size="line"> Move right<a class="headerlink" href="#move-up-move-down-move-left-move-right" title="Permanent link">&para;</a></h4>
 <p>These buttons move selected tangents by 1px, or 10px if you hold <code>Shift</code></p>
-<h4 id="copy"><img src=".gitbook/assets/tangents - copy.svg" alt="" data-size="line"> Copy<a class="headerlink" href="#copy" title="Permanent link">&para;</a></h4>
+<h4 id="copy"><img src="/img/tangents - copy.svg" alt="" data-size="line"> Copy<a class="headerlink" href="#copy" title="Permanent link">&para;</a></h4>
 <p>Copies the selected tangents. You can copy <em>one</em> or <em>both</em> tangents <em>of a pair</em>. You cannot copy tangents from different points.</p>
-<h4 id="paste"><img src=".gitbook/assets/tangents - paste.svg" alt="" data-size="line"> Paste<a class="headerlink" href="#paste" title="Permanent link">&para;</a></h4>
+<h4 id="paste"><img src="/img/tangents - paste.svg" alt="" data-size="line"> Paste<a class="headerlink" href="#paste" title="Permanent link">&para;</a></h4>
 <p>Pastes the copied tangents to the selected tangents. You can paste to multiple tangents simultaneously.</p>
 <p>If you copy <strong>and</strong> paste both In <strong>and</strong> Out tangents, they will paste in-to-in and out-to-out. If you copied <strong>only one</strong> tangent of a pair, and you paste to <strong>only one</strong> tangent, you will paste the tangent you copied, end of. Also see <a href="../advanced-tangent-pasting/">Advanced tangent pasting</a> on the next page.</p>
-<h4 id="zero"><img src=".gitbook/assets/tangents - zero.svg" alt="" data-size="line"> Zero<a class="headerlink" href="#zero" title="Permanent link">&para;</a></h4>
+<h4 id="zero"><img src="/img/tangents - zero.svg" alt="" data-size="line"> Zero<a class="headerlink" href="#zero" title="Permanent link">&para;</a></h4>
 <p>Zero’s out the selected tangents. You can also zero tangents by pressing the <code>Backspace</code> (delete) key on your keyboard, when in the Tangents tab.</p>
-<h4 id="flatten-to-vertical-axis-flatten-to-horizontal-axis"><img src=".gitbook/assets/tangents - flatV.svg" alt="" data-size="line"> Flatten to vertical axis, <img src=".gitbook/assets/tangents - flatH.svg" alt="" data-size="line"> Flatten to horizontal axis<a class="headerlink" href="#flatten-to-vertical-axis-flatten-to-horizontal-axis" title="Permanent link">&para;</a></h4>
+<h4 id="flatten-to-vertical-axis-flatten-to-horizontal-axis"><img src="/img/tangents - flatV.svg" alt="" data-size="line"> Flatten to vertical axis, <img src="/img/tangents - flatH.svg" alt="" data-size="line"> Flatten to horizontal axis<a class="headerlink" href="#flatten-to-vertical-axis-flatten-to-horizontal-axis" title="Permanent link">&para;</a></h4>
 <p>Rotates selected tangents around their parent point, to the nearest spot on it's vertical or horizontal axis. These axes are in the current <a href="../spaces/">Space</a>.</p>
-<h4 id="flip-around-vertical-axis-flip-around-horizontal-axis"><img src=".gitbook/assets/tangents - flipV.svg" alt="" data-size="line"> Flip around vertical axis, <img src=".gitbook/assets/tangents - flipH.svg" alt="" data-size="line"> Flip around horizontal axis<a class="headerlink" href="#flip-around-vertical-axis-flip-around-horizontal-axis" title="Permanent link">&para;</a></h4>
+<h4 id="flip-around-vertical-axis-flip-around-horizontal-axis"><img src="/img/tangents - flipV.svg" alt="" data-size="line"> Flip around vertical axis, <img src="/img/tangents - flipH.svg" alt="" data-size="line"> Flip around horizontal axis<a class="headerlink" href="#flip-around-vertical-axis-flip-around-horizontal-axis" title="Permanent link">&para;</a></h4>
 <p>Rotates the selected tangents so that they flip over the vertical or horizontal axis of their parent point. These axes are in the current <a href="../spaces/">Space</a></p>
-<h4 id="swap"><img src=".gitbook/assets/tangents - swap.svg" alt="" data-size="line"> Swap<a class="headerlink" href="#swap" title="Permanent link">&para;</a></h4>
+<h4 id="swap"><img src="/img/tangents - swap.svg" alt="" data-size="line"> Swap<a class="headerlink" href="#swap" title="Permanent link">&para;</a></h4>
 <p>This button swaps a pair of tangents with one another.</p>
-<h4 id="match-length"><img src=".gitbook/assets/tangents - matchLength.svg" alt="" data-size="line"> Match length<a class="headerlink" href="#match-length" title="Permanent link">&para;</a></h4>
+<h4 id="match-length"><img src="/img/tangents - matchLength.svg" alt="" data-size="line"> Match length<a class="headerlink" href="#match-length" title="Permanent link">&para;</a></h4>
 <p>Makes the selected tangents the same length as their opposite. If you only selected <em>one</em> tangent of a pair, it will become the same length as the other. If you select <em>both</em> tangents of a pair, both will be altered to their average length.</p>
-<h4 id="match-angle"><img src=".gitbook/assets/tangents - opposeAngle.svg" alt="" data-size="line"> Match angle<a class="headerlink" href="#match-angle" title="Permanent link">&para;</a></h4>
+<h4 id="match-angle"><img src="/img/tangents - opposeAngle.svg" alt="" data-size="line"> Match angle<a class="headerlink" href="#match-angle" title="Permanent link">&para;</a></h4>
 <p>Rotates a selected tangent so that it is exactly 180º to it's opposite, and set the point to <em>smooth</em> (the tangent handles are linked to one another to maintain a straight line as you drag them around). If you select both tangents of a pair, their angles will be averaged and then each one set to +90º and -90º from this average.</p>
-<h4 id="align-to-point">&#x20;<img src=".gitbook/assets/tangents - facePoint.svg" alt="" data-size="line"> Align to point<a class="headerlink" href="#align-to-point" title="Permanent link">&para;</a></h4>
+<h4 id="align-to-point">&#x20;<img src="/img/tangents - facePoint.svg" alt="" data-size="line"> Align to point<a class="headerlink" href="#align-to-point" title="Permanent link">&para;</a></h4>
 <p>Rotates a selected tangent so that it aligns directly toward it's neighbouring point. Eg. an In tangent will face toward the previous point and an Out tangent will face toward the next point.</p>
-<h4 id="rotate"><img src=".gitbook/assets/tangents - rotate.svg" alt="" data-size="line"> Rotate<a class="headerlink" href="#rotate" title="Permanent link">&para;</a></h4>
+<h4 id="rotate"><img src="/img/tangents - rotate.svg" alt="" data-size="line"> Rotate<a class="headerlink" href="#rotate" title="Permanent link">&para;</a></h4>
 <p>This button will rotate tangents by a value, specified in degrees, around their parent point. Holding the <code>Alt</code> key will make it rotate in the opposite direction. Hover over the button and click the gear icon to <a href="../tangents-tab/#set-rotation-value">Set Rotation value</a>.</p>
-<h4 id="set-rotation-value"><img src=".gitbook/assets/tangents - setRotate.svg" alt="" data-size="line"> Set Rotation value<a class="headerlink" href="#set-rotation-value" title="Permanent link">&para;</a></h4>
+<h4 id="set-rotation-value"><img src="/img/tangents - setRotate.svg" alt="" data-size="line"> Set Rotation value<a class="headerlink" href="#set-rotation-value" title="Permanent link">&para;</a></h4>
 <p>This button sets a value, in degrees, which the <a href="../tangents-tab/#rotate">Rotate</a> button applies.</p>
 
 

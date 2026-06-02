@@ -22,7 +22,7 @@
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../assets/stopwatch.svg">
       <meta name="generator" content="zensical-0.0.10">
     
     
@@ -87,12 +87,16 @@
       
     
     
+      <link rel="stylesheet" href="../assets/css/animatable.css">
+    
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
     
       
 
     
     
+<meta name="robots" content="noindex, nofollow">
+
   </head>
   
   
@@ -119,6 +123,24 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg>
+              </button>
+            
+            
+This guide is no longer updated. It is for an old, outdated version of Penpal (v1.5.0).
+<a href="https://penpal.docs.animatable.co">View the current Penpal 2 docs</a>
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
     </div>
     
     
@@ -130,8 +152,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="Penpal v1 User Guide" class="md-header__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -229,8 +250,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="Penpal v1 User Guide" class="md-nav__button md-logo" aria-label="Penpal v1 User Guide" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  <img src="../assets/stopwatch.svg" alt="logo">
 
     </a>
     Penpal v1 User Guide
@@ -891,28 +911,32 @@
                   
 
 <h1 id="paths-tab">Paths tab<a class="headerlink" href="#paths-tab" title="Permanent link">&para;</a></h1>
-<p><img alt="" src="../.gitbook/assets/pathstab.png" /></p>
+<p><img alt="" src="../img/pathstab.png" /></p>
 <p>The functions in the Paths tab tend to affect the shape as a whole, rather than it’s individual points.</p>
-<p _="%" endhint="endhint">{% hint style="warning" %}
-When we refer to a path’s <strong>bounding box</strong> we mean the rectangle formed by it’s outermost visible parts.</p>
-<h4 id="center"><img src=".gitbook/assets/paths - center.svg" alt="" data-size="line"> Center<a class="headerlink" href="#center" title="Permanent link">&para;</a></h4>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>When we refer to a path’s <strong>bounding box</strong> we mean the rectangle formed by it’s outermost visible parts.</p>
+</div>
+<h4 id="center"><img src="/img/paths - center.svg" alt="" data-size="line"> Center<a class="headerlink" href="#center" title="Permanent link">&para;</a></h4>
 <p>Center the path in the composition, layer or shape group, depending on which Space you have active.&#x20;</p>
-<h4 id="center-vertically-center-horizontally"><img src=".gitbook/assets/paths - centerV.svg" alt="" data-size="line"> Center vertically,  <img src=".gitbook/assets/paths - centerH.svg" alt="" data-size="line"> Center horizontally<a class="headerlink" href="#center-vertically-center-horizontally" title="Permanent link">&para;</a></h4>
+<h4 id="center-vertically-center-horizontally"><img src="/img/paths - centerV.svg" alt="" data-size="line"> Center vertically,  <img src="/img/paths - centerH.svg" alt="" data-size="line"> Center horizontally<a class="headerlink" href="#center-vertically-center-horizontally" title="Permanent link">&para;</a></h4>
 <p>Vertically or horizontally center the path, as above.</p>
-<h4 id="flip-vertically-flip-horizontally"><img src=".gitbook/assets/paths - flipV.svg" alt="" data-size="line"> Flip vertically, <img src=".gitbook/assets/paths - flipH.svg" alt="" data-size="line"> Flip horizontally<a class="headerlink" href="#flip-vertically-flip-horizontally" title="Permanent link">&para;</a></h4>
+<h4 id="flip-vertically-flip-horizontally"><img src="/img/paths - flipV.svg" alt="" data-size="line"> Flip vertically, <img src="/img/paths - flipH.svg" alt="" data-size="line"> Flip horizontally<a class="headerlink" href="#flip-vertically-flip-horizontally" title="Permanent link">&para;</a></h4>
 <p>Flip the path top-to-bottom or left-to-right, around its  center.</p>
-<h4 id="flip-up-flip-down-flip-right-flip-left"><img src=".gitbook/assets/paths - flipT.svg" alt="" data-size="line"> Flip up, <img src=".gitbook/assets/paths - flipB.svg" alt="" data-size="line"> Flip down,  <img src=".gitbook/assets/paths - flipR.svg" alt="" data-size="line"> Flip right,  <img src=".gitbook/assets/paths - flipL.svg" alt="" data-size="line"> Flip left<a class="headerlink" href="#flip-up-flip-down-flip-right-flip-left" title="Permanent link">&para;</a></h4>
+<h4 id="flip-up-flip-down-flip-right-flip-left"><img src="/img/paths - flipT.svg" alt="" data-size="line"> Flip up, <img src="/img/paths - flipB.svg" alt="" data-size="line"> Flip down,  <img src="/img/paths - flipR.svg" alt="" data-size="line"> Flip right,  <img src="/img/paths - flipL.svg" alt="" data-size="line"> Flip left<a class="headerlink" href="#flip-up-flip-down-flip-right-flip-left" title="Permanent link">&para;</a></h4>
 <p>Flip the path around the top, bottom, right or left edge of its  bounding box.</p>
-<h4 id="reverse"><img src=".gitbook/assets/paths - reverse.svg" alt="" data-size="line"> Reverse<a class="headerlink" href="#reverse" title="Permanent link">&para;</a></h4>
+<h4 id="reverse"><img src="/img/paths - reverse.svg" alt="" data-size="line"> Reverse<a class="headerlink" href="#reverse" title="Permanent link">&para;</a></h4>
 <p>Reverse the order of the points in the selected path. It’s first vertex will remain the same, unless you apply it to an open path, in which case the first vertex will be moved to the opposite end.</p>
-<h4 id="toggle-open"><img src=".gitbook/assets/paths - open.svg" alt="" data-size="line"> Toggle open<a class="headerlink" href="#toggle-open" title="Permanent link">&para;</a></h4>
+<h4 id="toggle-open"><img src="/img/paths - open.svg" alt="" data-size="line"> Toggle open<a class="headerlink" href="#toggle-open" title="Permanent link">&para;</a></h4>
 <p>Toggle selected paths from open to closed, or vice versa. If you have multiple paths selected, you can hold <code>Alt</code> to make them all open, or <code>Cmd/Ctrl</code> to make them all closed.</p>
-<h4 id="simplify"><img src=".gitbook/assets/paths - simplify.svg" alt="" data-size="line"> Simplify<a class="headerlink" href="#simplify" title="Permanent link">&para;</a></h4>
+<h4 id="simplify"><img src="/img/paths - simplify.svg" alt="" data-size="line"> Simplify<a class="headerlink" href="#simplify" title="Permanent link">&para;</a></h4>
 <p>This function removes points from the selected paths whilst attempting to preserve their basic shape. When you hover over the button, it brings up a slider below. Drag the slider to the right to reduce the number of points and Penpal will preview how your paths will be simplified. To apply it, click the blue checkmark icon. If you move your cursor away from the slider container, the process is aborted.</p>
-<h4 id="join"><img src=".gitbook/assets/paths - join.svg" alt="" data-size="line"> Join<a class="headerlink" href="#join" title="Permanent link">&para;</a></h4>
+<h4 id="join"><img src="/img/paths - join.svg" alt="" data-size="line"> Join<a class="headerlink" href="#join" title="Permanent link">&para;</a></h4>
 <p>This button will join two or more open paths into one. Paths are joined in the order they were selected in the canvas, and from each one's last point to the next one's first point (following their direction). A new, joined path is created, and the original paths are turned off in the timeline. If your paths seem to join at the wrong ends you probably need to <a href="../path-tab/#reverse">reverse</a> one or more of them before you join them.</p>
-<p _="%" endhint="endhint">{% hint style="warning" %}
-The Join function currently does not support masks, it only works with shape paths.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>The Join function currently does not support masks, it only works with shape paths.</p>
+</div>
 
 
 

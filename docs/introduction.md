@@ -6,15 +6,15 @@ description: >-
 
 # Introduction
 
-{% embed url="https://www.youtube.com/watch?v=pzkfQFrfIzs&t" %}
+
+<iframe src="https://www.youtube.com/embed/pzkfQFrfIzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Penpal is an extension for Adobe After Effects that equips you with over 40 path-editing functions which are missing from After Effects' native toolset. It works with both shape layers and masks.
 
-{% hint style="warning" %}
-Points are sometimes called vertices, and tangents are sometimes called direction handles or direction lines. We always refer to them as points and tangents.
+!!! warning
+    Points are sometimes called vertices, and tangents are sometimes called direction handles or direction lines. We always refer to them as points and tangents.
 
 Throughout this guide we use the phrase `Cmd/Ctrl` to refer to the Command button if you're on a Mac, or the Control button if you have a Windows PC. When we refer to right-clicking, you can also use Ctrl-click if you're on a Mac
-{% endhint %}
 
 Penpal is compatible with After Effects CC2018 and later and can run in English, Chinese, German, Italian, Japanese, Portuguese, Russian or Spanish.
 
@@ -26,9 +26,8 @@ Download and install the free [ZXP Installer](https://aescripts.com/learn/zxp-in
 
 Close After Effects if it is running. Open **ZXP Installer**, go to `File > Open`, then navigate to the **Penpal.zxp** file contained in your download, and install it.
 
-{% hint style="warning" %}
-If you see an error message saying 'No application compatible with Penpal was found on your computer. Do you still want to try to install this extension?' - click on **Install**.
-{% endhint %}
+!!! warning
+    If you see an error message saying 'No application compatible with Penpal was found on your computer. Do you still want to try to install this extension?' - click on **Install**.
 
 Open After Effects and go to the `Window > Extensions` menu, then click **Penpal**. If nothing happens, you may need to [follow these steps](faqs.md#when-i-click-on-window-greater-than-extensions-greater-than-penpal-nothing-happens).
 
