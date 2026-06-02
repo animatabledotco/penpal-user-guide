@@ -1,9 +1,3 @@
----
-description: >-
-  This guide is for an outdated version of Penpal (1.5.0) - please visit
-  https://penpal.docs.animatable.co for the current user guide.
----
-
 # Preferences and keyboard shortcuts
 
 The Preferences menu can be accessed from the main panel's `hamburger menu > Preferences…`

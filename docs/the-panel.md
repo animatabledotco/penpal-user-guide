@@ -1,9 +1,3 @@
----
-description: >-
-  This guide is for an outdated version of Penpal (1.5.0) - please visit
-  https://penpal.docs.animatable.co for the current user guide.
----
-
 # The Panel
 
 Let's look at the different parts of the Penpal panel:

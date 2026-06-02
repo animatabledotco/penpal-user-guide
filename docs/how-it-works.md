@@ -1,9 +1,3 @@
----
-description: >-
-  This guide is for an outdated version of Penpal (1.5.0) - please visit
-  https://penpal.docs.animatable.co for the current user guide.
----
-
 # How it works
 
 <iframe src="https://www.youtube.com/embed/zFDTQJogRR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

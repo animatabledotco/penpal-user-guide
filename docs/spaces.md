@@ -1,9 +1,3 @@
----
-description: >-
-  This guide is for an outdated version of Penpal (1.5.0) - please visit
-  https://penpal.docs.animatable.co for the current user guide.
----
-
 # Spaces
 
 **Spaces** are ways of handling paths _**with or without transformations**_. Let's say you have a rounded, rectangular path, but it's layer has been rotated. If you want to make the shape taller, it's easier to do so without that rotation. Normally, you'd have to use a precomp to do this, and go into the un-rotated precomp. But Penpal can sort of _see inside_ layers, and show you the path as it is, without the rotation.
