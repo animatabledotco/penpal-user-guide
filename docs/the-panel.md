@@ -8,9 +8,9 @@ Let's look at the different parts of the Penpal panel:
 
 ![](img/reload.svg) **Reload** button - reloads currently selected paths. This will de-select any [selected elements](elements-selections-and-tabs.md#selections) in the canvas.
 
-**Tabs** - switches between groups of functions - ![](img/tabs - paths.svg) [Paths](path-tab.md), ![](img/tabs - points.svg) [Points](points-tab.md) and ![](img/tabs - tangents.svg) [Tangents](tangents-tab.md).
+**Tabs** - switches between groups of functions - ![](img/tabs-paths.svg) [Paths](path-tab.md), ![](img/tabs-points.svg) [Points](points-tab.md) and ![](img/tabs-tangents.svg) [Tangents](tangents-tab.md).
 
-[**Spaces**](spaces.md) button - switches between ![](img/space - comp.svg) Comp, ![](img/space - layer.svg) Layer and ![](img/space - local.svg) Local space.
+[**Spaces**](spaces.md) button - switches between ![](img/space-comp.svg) Comp, ![](img/space-layer.svg) Layer and ![](img/space-local.svg) Local space.
 
 **Function buttons** - to perform operations.
 

@@ -2,7 +2,7 @@
 
 ## Tabs
 
-There are three tabs at the top of the panel, denoted by symbols: ![](img/tabs - paths.svg)Paths, ![](img/tabs - points.svg)Points and ![](img/tabs - tangents.svg)Tangents. Clicking on these tabs displays different groups of buttons, and highlights the relevant elements in the canvas. [Path functions](path-tab.md) affect the path as a whole - it will maintain it’s proportions and essential shape. [Point functions](points-tab.md) affect points and [Tangent functions](tangents-tab.md) affect tangents.
+There are three tabs at the top of the panel, denoted by symbols: ![](img/tabs-paths.svg)Paths, ![](img/tabs-points.svg)Points and ![](img/tabs-tangents.svg)Tangents. Clicking on these tabs displays different groups of buttons, and highlights the relevant elements in the canvas. [Path functions](path-tab.md) affect the path as a whole - it will maintain it’s proportions and essential shape. [Point functions](points-tab.md) affect points and [Tangent functions](tangents-tab.md) affect tangents.
 
 ## Selections
 

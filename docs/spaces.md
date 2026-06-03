@@ -6,11 +6,11 @@
 
 The **Spaces button** shows the active space. When you hover over it, a dropdown allows you to activate a different space.
 
-![](img/space - comp.svg) **Comp space** shows your paths as they appear in the composition panel in After Effects, with all the positioning, scaling, rotating, skewing, and other transformations that are affecting them.
+![](img/space-comp.svg) **Comp space** shows your paths as they appear in the composition panel in After Effects, with all the positioning, scaling, rotating, skewing, and other transformations that are affecting them.
 
-![](img/space - layer.svg) **Layer space** shows paths as if you were ‘inside’ the layer they are a part of. So if that layer is rotated, your paths will be shown without this rotation.
+![](img/space-layer.svg) **Layer space** shows paths as if you were ‘inside’ the layer they are a part of. So if that layer is rotated, your paths will be shown without this rotation.
 
-![](img/space - local.svg) **Local space** shows paths as they 'really are', without any of the transformations applied to both the layer **and** any shape groups they are in.
+![](img/space-local.svg) **Local space** shows paths as they 'really are', without any of the transformations applied to both the layer **and** any shape groups they are in.
 
 ![](img/spaces3.png)
 
